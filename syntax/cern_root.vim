@@ -19,7 +19,7 @@ if !exists("c_no_cern_root")
    syn keyword	cType           TRotation TGenPhaseSpace TFeldmanCousins TRobustEstimator TRolke TQuaternion
    syn keyword	cType           TPostScript TSVG TPDF TImageDump THtml TColor TStyle TComplex TPRegexp
    syn keyword	cType           TObjArrayIter TMapIter TClass TEnv TGlobal TCint TROOT TDictionary TTime TTimer
-   syn keyword	cType           RooWorkspace RooPlot RooDataSet RooDataHist
+   syn keyword	cType           RooWorkspace RooPlot RooDataSet RooDataHist RooRealVar RooArgSet RooAbsPdf
    syn keyword	cType           RDataFrame 
    syn keyword	cType           Double_t Int_t Float_t Long_t Bool_t Byte_t
    syn keyword	cType      	char_t Marker_t Double32_t Float16_t Long64_t
