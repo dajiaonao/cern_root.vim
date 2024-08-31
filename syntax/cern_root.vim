@@ -19,7 +19,8 @@ if !exists("c_no_cern_root")
    syn keyword	cType           TRotation TGenPhaseSpace TFeldmanCousins TRobustEstimator TRolke TQuaternion
    syn keyword	cType           TPostScript TSVG TPDF TImageDump THtml TColor TStyle TComplex TPRegexp
    syn keyword	cType           TObjArrayIter TMapIter TClass TEnv TGlobal TCint TROOT TDictionary TTime TTimer
-   syn keyword	cType           RooWorkspace RooPlot RooDataSet RooDataHist RooRealVar RooArgSet RooAbsPdf
+   syn keyword	cType           RooWorkspace RooPlot RooDataSet RooDataHist RooRealVar RooArgSet RooAbsPdf RooPoisson RooProdPdf RooGaussian
+   syn keyword	cType           RooFitResult RooAbsReal RooConst 
    syn keyword	cType           RDataFrame 
    syn keyword	cType           Double_t Int_t Float_t Long_t Bool_t Byte_t
    syn keyword	cType      	char_t Marker_t Double32_t Float16_t Long64_t
@@ -38,5 +39,5 @@ if !exists("c_no_cern_root")
    syn keyword	cSpecial        gApplication gBenchmark gEnv gErrorIgnoreLevel gErrorAbortLevel gRandom gStyle
    syn keyword	cSpecial        gRootDir gProgName gProgPath gSystem gVirtualPS gDragManager gGuiBuilder gCurrentRegion
    syn keyword	cSpecial        gClient gMinuit gHtml
-   syn keyword	cSpecial        ROOT
+   syn keyword	cSpecial        ROOT RooFit
 endif
